@@ -1,0 +1,30 @@
+200  success Ok
+201 created
+202 accepted
+203 No authoritative info
+204 No Content
+205 Reset Content
+206 Partial Content
+
+
+// 4xx Client errors
+
+400  Bad request
+401  unauthorized => Requires Authentication
+402 Payment Required =>Reserved for future use
+403  Forbidden =>Authenticated, but not allowed
+404  Not found => Resource does not exists
+405 Method Not allowed , HTTP method not supported.
+406 Not Acceptable   Server cannot return acceptable content.
+414 URI Too Long  URL is too long.
+
+
+// 5xx server server
+
+500  Internal Server Error
+501 Not Implemented  Method or functionality not supported by server.
+502  Bad Gateway  Server received invalid response from upstream server.
+503  Service Unavailable => server is down or overloaded
+504 Gateway Timeout   Timeout from upstream server.
+505 HTTP Version Not Supported  Server doesn't support the requested HTTP version.
+507  Insufficient Storage   Server is out of space.
